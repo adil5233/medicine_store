@@ -3,6 +3,7 @@ import ProductList from './components/ProductList/ProductList';
 import Header from './components/Header/Header';
 import Nav from './components/Navigation/Nav';
 import './App.css'
+import Carousel from './components/Carousel/Carousel';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <main>
                 <Header/>
                 <Nav/>
+                <Carousel/>
                 <ProductList />
             </main>
         </div>
